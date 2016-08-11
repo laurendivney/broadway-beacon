@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<link rel="stylesheet" href="closing.css">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<style>
+
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('prettynyc.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("closing3.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("closingpic.jpg");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+#googleMap {
+    width: 100%;
+    height: 400px;
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%);
+}
+
+/* Turn off parallax scrolling for tablets and mobiles */
+@media only screen and (max-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <ul class="w3-navbar" id="myNavbar">
+  <li><a href="file:///C:/Users/Lauren.PC/Google%20Drive/broadwaybit/Website.html" style= "color:white;">Home</a></li>
+<li><a href="file:///C:/Users/Lauren.PC/Google%20Drive/broadwaybit/Schedule.html" style= "color:white;">Schedule</a></li>
+		<li><a href="file:///C:/Users/Lauren.PC/Google%20Drive/broadwaybit/closingShows.html" style="color:white;">Closing Shows</a></li>
+		<li><a href="file:///C:/Users/Lauren.PC/Google%20Drive/broadwaybit/StarsOnStage.html"style="color:white;">StarsOnStage</a></li>
+		<li><a href="file:///C:/Users/Lauren.PC/Google%20Drive/broadwaybit/Quiz.html"style="color:white;">Quiz</a></li>
+		<li><a href="file:///C:/Users/Lauren.PC/Google%20Drive/broadwaybit/DC.html" style= "color:white;">DC</a></li>
+        <li class="dropdown">
+          <a href="file:///C:/Users/Lauren.PC/Google%20Drive/broadwaybit/synopsis.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color:white;">Synopsis <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Aladdin</a></li>
+            <li><a href="#">The Book of Mormon</a></li>
+            <li><a href="#">Cats</a></li>
+            <li><a href="#">Chicago</a></li>
+            <li><a href="#">The Color Purple</a></li>
+			<li><a href="#">Fiddler on the Roof</a></li>
+			<li><a href="#">Finding Neverland</a></li>
+			<li><a href="#">Fun Home</a></li>
+			<li><a href="#">Hamilton</a></li>
+			<li><a href="#">Jersey Boys</a></li>
+			<li><a href="#">Kinky Boots</a></li>
+			<li><a href="#">Les Miserables</a></li>
+			<li><a href="#">The Lion King</a></li>
+			<li><a href="#">Matilda</a></li>
+			<li><a href="#">On Your Feet</a></li>
+			<li><a href="#">The Phantom of the Opera</a></li>
+			<li><a href="#">Something Rotten</a></li>
+			<li><a href="#">Waitress</a></li>
+			<li><a href="#">Wicked</a></li>
+			
+          </ul>
+        </li>
+      </ul>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-opacity w3-display-container">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-xlarge w3-black w3-xlarge w3-wide w3-animate-opacity">BROADWAY <span class="w3-hide-small">BIT</span> CLOSING SHOWS </span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->	
+	
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center"><a>AUGUST</a></h3>  
+    <div data-role="main" class="ui-content">	
+	
+	  <span><h4 class="indent">Finding Neverland</h4>
+  <h5 class= "indent">AUG 21, 2016</h5></span> 
+
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center"><a>SEPTEMBER</a></h3>
+    <div data-role="main" class="ui-content">
+
+  	  <span><h4 style=text-align:left>Les Miserables</h4>
+  <h5>SEP 4, 2016</h5></span> 
+  <br>
+    	  <span><h4 style=text-align:left>Fun Home</h4>
+  <h5>SEP 10, 2016</h5></span> 
+  
+  <br>
+		
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-light-grey w3-wide"></span>
+  </div>
+</div>
+
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center"><a>OCTOBER</a></h3>  
+    <div data-role="main" class="ui-content">
+	
+	  <span><h4 style=text-align:left>An American in Paris</h4>
+  <h5>OCT 9, 2016</h5></span> 
+
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center"><a>NOVEMBER</a></h3>
+    <div data-role="main" class="ui-content">
+
+  
+      </div>
+	  
+	  
+ 	
+</div>
+    <!-- Hide this text on small devices -->
+    
+  </div>
+</div>
+
+
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-closebtn w3-hover-red w3-text-white w3-xxxlarge w3-container w3-display-topright">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" style="max-width:100%">
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-light-grey w3-wide"></span>
+  </div>
+</div>
+
+  <div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center"><a>DECEMBER</a></h3>
+    <div data-role="main" class="ui-content">
+
+	  
+  <span><h4>Fiddler on the Roof</h4>
+  <h5>DEC 31, 2016</h5></span>  
+		<br>
+		
+		
+	<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center"><a>JANUARY</a></h3>
+    <div data-role="main" class="ui-content">
+
+  	  <h4>Matilda</h4>
+  <h5>JAN 1, 2016</h5> 
+  <br>
+    	  <span><h4>Miss Saigon</h4>
+  <h5>JAN 14, 2016</h5></span> 
+  
+  <br>
+		
+	
+
+</script>
+
+</body>
+</html>
